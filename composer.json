@@ -1,0 +1,22 @@
+{
+    "name": "phppost/calculator",
+    "description": "MaxPostSize calculation tools",
+    "type": "project",
+    "autoload": {
+      "psr-4": {
+        "PhpPost\\Calculator\\": "src/"
+      }
+    },
+    "require": {
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.6-dev"
+        },
+      "laravel": {
+        "providers": [
+          "PhpPost\\Calculator\\ServiceProvider"
+        ]
+      }
+    }
+}
