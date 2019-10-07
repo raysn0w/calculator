@@ -1,7 +1,6 @@
 {
     "name": "phppost/calculator",
     "description": "MaxPostSize calculation tools",
-    "type": "project",
     "autoload": {
       "psr-4": {
         "PhpPost\\Calculator\\": "src/"
