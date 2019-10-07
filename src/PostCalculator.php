@@ -6,7 +6,7 @@ use Illustrate\Concept\Concept;
 
 class PostCalculator
 {
-    public static function getPostMaxSize(){
+    public static function getPostMaxSize($value){
         try {
             Concept::Validate();
         } catch (\Throwable $e) {
